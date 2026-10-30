@@ -1,7 +1,8 @@
 # Shader 1: Reflection
 
 <img width="1227" height="597" alt="image" src="https://github.com/user-attachments/assets/41d8ac99-7241-49c2-b420-296f05aee535" />
-This was my last shader so it was very rushed. Pretty much copying course content
+
+This was my last shader so it was very rushed. Pretty much copying course content. It's applied to the orb.
 
 # Shader 2: Texture and tiling
 
@@ -22,7 +23,7 @@ between two different UVs. One where his eye texture is while and another where 
 
 While trying to think of something that is general purpose, I though about substance painter and how it exports maps together as 1 condensed map
 so I made a lit shader that takes the inputs the substance painter outputs as well as adding a noram map into the mix. On top of all that I made it 
-tilable and all 3 maps using the same UVs
+tilable and all 3 maps using the same UVs. I attached this to the ground
 
 # Shader 5: Lighting toggle
 
@@ -30,13 +31,14 @@ tilable and all 3 maps using the same UVs
 
 Here's my lighting. The specular is straight from the slides but the diffuse uses the light direction node istead of and HLSL.
 The Ambient was based off a graph I found while studing where you learp beatween different ambient node outputs depending on the normal vector
-sadly I did not getting it working properly this time. The toggles use branch nodes to either add 0 or add the lighting data dpending on a boonlean
+sadly I did not getting it working properly this time. The toggles use branch nodes to either add 0 or add the lighting data dpending on a boonlean.
+I attached this to the pillar.
 
 # Shader 6: Bonus Shader of your choice
 
 <img width="1452" height="411" alt="image" src="https://github.com/user-attachments/assets/52cd829f-37fc-4b75-8055-87c4a4749f7e" />
 
-I've done quite a few sine time vertex shaders now so I chose to stick in my comfort zone. The brdge moves back and forth on the y-axis(which since it's a blender 
+I've done quite a few sine time vertex shaders now so I chose to stick in my comfort zone. The bridge moves back and forth on the y-axis(which since it's a blender 
 model means depth) using sine time. With variables for the speed and distance.
 
 
