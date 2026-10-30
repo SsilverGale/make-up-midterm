@@ -15,7 +15,8 @@ This was the lava of my project. I set up a tiling and offset node into my shade
 <img width="1056" height="531" alt="image" src="https://github.com/user-attachments/assets/ab0d8844-fe36-47a1-8fcb-bd87844a664f" />
 
 For this I made a shader that's supposed to make the toad look like he's blicking by swapping back and forth
-between two different UVs. One where his eye texture is while and another where it's his skin tone of yellow
+between two different UVs. One where his eye texture is while and another where it's his skin tone of yellow.
+I also chose to round the sine wave to make it fit as a bool for the branch node.
 
 # Shader 4: General Purpose
 
