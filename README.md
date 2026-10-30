@@ -24,6 +24,22 @@ While trying to think of something that is general purpose, I though about subst
 so I made a lit shader that takes the inputs the substance painter outputs as well as adding a noram map into the mix. On top of all that I made it 
 tilable and all 3 maps using the same UVs
 
-# Shader 5:
+# Shader 5: Lighting toggle
+
+<img width="1790" height="887" alt="image" src="https://github.com/user-attachments/assets/9e25a184-ba46-45f4-a124-a025af2e2cd6" />
+
+Here's my lighting. The specular is straight from the slides but the diffuse uses the light direction node istead of and HLSL.
+The Ambient was based off a graph I found while studing where you learp beatween different ambient node outputs depending on the normal vector
+sadly I did not getting it working properly this time. The toggles use branch nodes to either add 0 or add the lighting data dpending on a boonlean
+
+# Shader 6: Bonus Shader of your choice
+
+<img width="1452" height="411" alt="image" src="https://github.com/user-attachments/assets/52cd829f-37fc-4b75-8055-87c4a4749f7e" />
+
+I've done quite a few sine time vertex shaders now so I chose to stick in my comfort zone. The brdge moves back and forth on the y-axis(which since it's a blender 
+model means depth) using sine time. With variables for the speed and distance.
+
+
+
 
 
